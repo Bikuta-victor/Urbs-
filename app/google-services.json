@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986807839753",
+    "firebase_url": "https://urbs-234ef.firebaseio.com",
+    "project_id": "urbs-234ef",
+    "storage_bucket": "urbs-234ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986807839753:android:1e551f48ee757148075cd8",
+        "android_client_info": {
+          "package_name": "com.example.urbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986807839753-8ch0sis2v5gpsbgi2men42hq2thrpr9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.urbs",
+            "certificate_hash": "6a0e50967d455edf078a32a2fcea8fa05feb41b4"
+          }
+        },
+        {
+          "client_id": "986807839753-7v3kaocht97ohqdg51n0dom1v2mk1fhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMRlmlHcUmYzCJdmOz5ir1I1W83LcB7jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986807839753-7v3kaocht97ohqdg51n0dom1v2mk1fhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/search_column"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/urbs_head"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="31dp"
+    android:layout_marginTop="20dp"
+    android:text="Urbs"
+    android:textSize="27sp"
+    app:fontFamily="@font/nunito_semibold" />
+
+
+
+
+<EditText
+    android:id="@+id/editText"
+    android:layout_width="338dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="60dp"
+    android:background="@drawable/search_layout"
+    android:drawableLeft="@drawable/ic_action_name"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="-20dp"
+    android:paddingBottom="10dp"
+    android:text="What are you looking for..?"
+    android:textColor="#999999"
+    android:textSize="21sp"
+    />
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardvw"
+    android:layout_width="406dp"
+    android:layout_height="300dp"
+    android:layout_below="@id/editText"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/search_layout"
+    android:layout_marginTop="15dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="0.5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cardtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sorry, Page not found!"
+            android:textColor="#000"
+            android:textSize="24sp"
+            app:fontFamily="@font/nunito_semibold" />
+
+        <ImageView
+            android:id="@+id/uCardImage"
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/loading_image_2"
+            android:contentDescription="@string/lo"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="this is the 4th take.....do some shit and some"
+            android:textColor ="#000"
+            android:textSize="19sp"
+            android:textStyle="normal"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+</RelativeLayout>
+
